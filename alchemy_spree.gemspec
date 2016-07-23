@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Alchemy::Spree::VERSION
 
   gem.add_dependency('alchemy_cms', ['>= 3.3.0.rc1', '< 4.0'])
-  gem.add_dependency('spree', ['>= 3.0', '< 4.0'])
+  gem.add_dependency('solidus_core', '~> 1.1')
 end
